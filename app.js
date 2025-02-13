@@ -1,3 +1,6 @@
+// document.write("<h1>Chap 9-12 </h1>" + "<br/>")
+// document.write("<h1>USER INPUT & CONDITIONAL STATEMENT</h1>")
+
 // QUESTION 1
 // Write a program to take “city” name as input from user. If
 // user enters “Karachi”, welcome the user like this:
