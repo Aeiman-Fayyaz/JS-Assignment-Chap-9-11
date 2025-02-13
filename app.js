@@ -9,10 +9,10 @@
 
 let userCity = prompt ("Enter city name")*/
 
-// // Condition
+// Condition
 
 /*if (userCity === cityName){
-    document.write("Welcome to city of lights")
+document.write("Welcome to city of lights")
 }
 else (
     document.write("Try Again")
@@ -30,7 +30,7 @@ else (
 // Condition
 
 /*if (gender == "Male"){
-    document.write("Good Morning, Sir")
+document.write("Good Morning, Sir")
 }
 else(
     document.write("Good Morning, Ma'am")
@@ -47,7 +47,7 @@ else(
 // Condition
 
 /*if (signal === "Red"){
-    document.write("Must Stop")
+document.write("Must Stop")
 }
 if (signal === "Yellow"){
     document.write("Ready to Move")
@@ -72,10 +72,10 @@ else if(signal === "")
 // Condition
 
 /*if (currentFuel < "0.25liters"){
-    document.write("Refil your car tank")
+document.write("Refil your car tank")
 }
 else(
-    document.write("Tank full")
+document.write("Tank full")
 )*/
 
 // QUESTION 5
@@ -84,7 +84,9 @@ else(
 
 // ANSWER
 
-// a. 
+// Condition
+
+// a.
 /*let a = 4;
 if (++a === 5){
 alert("given condition for variable a is true");
@@ -94,7 +96,7 @@ alert("given condition for variable a is true");
 
 /*a (document.write("++a is is pre-increment condtion that's why first add 1 in value a=4 then a=4 convert into 5 that's why this condition is true"))*/
 
-// b. 
+// b.
 /*let b = 82;
 if (b++ === 83){
 alert("given condition for variable b is true");
@@ -107,7 +109,7 @@ else(
 
 /*b (document.write("This condition is false because this is post-increment" + "<br/>" + "In post-increment, first add and return the value after add"))*/
 
-// c. 
+// c.
 // let c = 12;
 /*if (c++ === 13){
 alert("condition 1 is true");
@@ -141,7 +143,7 @@ else(
     document.write("This condition is false because the value of " + c + " is not equal to 14")
 )*/
 
-// d. 
+// d.
 /*let materialCost = 20000;
 let laborCost = 2000;
 let totalCost = materialCost + laborCost;
@@ -153,7 +155,7 @@ alert("The cost equals");
 
 document.write("Here is the comparision operator ===, we adding material and labor cost then compare with total cost")*/
 
-// e. 
+// e.
 /*if (true){
 alert("True");
 }
@@ -170,7 +172,7 @@ alert("False");
 
 document.write("The condition was false because there is the boolean data type that's false")*/
 
-// f. 
+// f.
 /*if("car" < "cat"){
 alert("car is smaller than cat");
 }
@@ -178,7 +180,6 @@ alert("car is smaller than cat");
 // Output
 
 document.write("Here is the woking of charcodeAt-ASCII numbers")*/
-
 
 // QUESTION 6
 // Write a program to take input the marks obtained in three
@@ -213,6 +214,8 @@ let totalPercentage = (totalObtainedMarks / totalMarks) * 100
 
 console.log(totalPercentage);
 
+// Condition
+
 if(totalPercentage >= 80)
 {
     document.write("Excellent")
@@ -239,7 +242,6 @@ document.write("Remarks:")
 if(totalPercentage >= 60){
     document.write("You need to improve")
 }*/
-
 
 // QUESTION 7
 // Guess game:
@@ -272,9 +274,6 @@ else(
     alert("Try again")
 )*/
 
-
-// START HERE
-
 // QUESTION 8
 // Write a program to check whether the given number is
 // divisible by 3. Show the message to the user if the number
@@ -282,11 +281,39 @@ else(
 
 // ANSWER
 
+/*let userNum = +prompt("Enter a number")
+let result;
+
+// Condition
+
+if(userNum % 3 == 0){
+    result = (userNum + " number divisible by 3")
+}
+else(
+    result = (userNum + " number isn't divisible by 3")
+)
+
+document.write(result)*/
+
 // QUESTION 9
 // Write a program that checks whether the given input is an
 // even number or an odd number.
 
 // ANSWER
+
+/*let userNumber = +prompt("Enter a number")
+let result
+
+// Condition
+
+if(userNumber % 2 == 0){
+    result = (userNumber + " is an even number")
+}
+else(
+    result = userNumber + " is not an odd number"
+)
+
+document.write(result)*/
 
 // QUESTION 10
 // Write a program that takes temperature as input and
@@ -298,6 +325,28 @@ else(
 
 // ANSWER
 
+/*let userTemperature = +prompt("Write a temperature")
+
+let result
+
+// Condition
+
+if(userTemperature > 40){
+    result = "It is too hot outside."
+}
+else if(userTemperature > 30){
+    result = "The Weather today is Normal."
+}
+else if(userTemperature > 20){
+    result = "Today’s Weather is cool."
+}
+else if(userTemperature > 10){
+    result = "OMG! Today’s weather is so Cool."
+}
+else(result = "OMG! Today’s weather is so Cool.")
+
+document.write(result)*/
+
 // QUESTION 11
 // Write a program to create a calculator for +,-,*, / & %
 // using if statements. Take the following input:
@@ -308,3 +357,25 @@ else(
 
 // ANSWER
 
+/*let userNumber1 = +prompt("Enter your 1st number");
+let userNumber2 = +prompt("Enter your 2nd number");
+let operators = prompt("Enter a operator for calculations");
+let output;
+
+// Condition
+
+if(operators === "+"){
+    output = (userNumber1 + userNumber2)
+}
+else if(operators === "-"){
+    output = (userNumber1 - userNumber2)
+}
+else if(operators === "*"){
+    output = (userNumber1 * userNumber2)
+}
+else if(operators === "/"){
+    output = (userNumber1 / userNumber2)
+}
+else("Enter a number not character or special character")
+
+document.write(output)*/
