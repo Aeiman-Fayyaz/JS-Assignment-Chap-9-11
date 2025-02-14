@@ -251,12 +251,48 @@ document.write("Join Array: " + "<br/>" + stringArray)*/
 
 // ANSWER
 
+/*let veg = []
+
+// Initialization
+
+veg.unshift("cucumber ")
+veg.unshift("mint ")
+veg.unshift("carrot ")
+
+document.write(veg)
+
+// Access value in (FIFO-First In First Out)
+
+document.write("<br/>" + "FIFO-First In First Out" + "<br/>")
+document.write(veg.shift() + "<br/>")
+document.write(veg.shift() + "<br/>")
+document.write(veg.shift() + "<br/>")*/
+
+
 // QUESTION 14
 // Create a new array. Store values one by one in such a way
 // that you can access the values in reverse order. (Last In-
 // First Out)
 
 // ANSWER
+
+/*let flower = []
+
+// Initialization
+
+flower.push("lotus ")
+flower.push("rose ")
+flower.push("tulip ")
+
+document.write(flower)
+
+// Access value in (Last In- First Out)
+
+document.write("<br/>" + "LIFO-Last In First Out" + "<br/>")
+document.write(flower.pop() + "<br/>")
+document.write(flower.pop() + "<br/>")
+document.write(flower.pop() + "<br/>")*/
+
 
 // QUESTION 15
 // Write a program to store phone manufacturers (Apple,
@@ -265,3 +301,16 @@ document.write("Join Array: " + "<br/>" + stringArray)*/
 // browser using document.write() method:
 
 // ANSWER
+
+/*let phoneManufactueres = [" ", "Apple", "Samsung", "Motorola", "Nokia", "Sony", "Haier"]
+
+// Making dropdown
+
+document.write("<select><option>" + phoneManufactueres[0] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[1] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[2] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[3] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[4] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[5] +"</option>" + "<br/>")
+document.write("<option>" + phoneManufactueres[6] +"</option>" + "<br/>")
+document.write("</select>")*/
